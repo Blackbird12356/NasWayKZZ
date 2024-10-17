@@ -5,6 +5,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+@media screen and (max-width: 1440px) {
+	body {
+		display: flex;
+		background-image: url('background.jpg');
+	}
+}
 body {
 	display: flex;
 	background-image: url('background.jpg');
@@ -187,7 +193,8 @@ body {
 
 .img {
 	display: flex;
-	width: 60%;
+	width: 900px;
+	height: 600px;
 	margin-left: 970px;
 	margin-top: -320px;
 	background-color: rgba(255, 255, 255, 0.4);
