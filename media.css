@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px) {
+	body {
+	  display: block;
+	  background-size: cover;
+	}
+  
+	.text {
+	  margin-left: 0;
+	  text-align: center;
+	  margin-top: 20px;
+	}
+  
+	.home,
+	.services,
+	.pricing,
+	.contact,
+	.signup,
+	.login {
+	  font-size: 16px;
+	  margin-left: 0;
+	  padding: 10px 0;
+	  display: block;
+	  text-align: center;
+	  margin-top: 10px;
+	}
+  
+	.login {
+	  margin-left: 0;
+	  margin-top: 20px;
+	}
+  
+	.nasvay {
+		text-align: center
+	  width: auto;
+	  margin: auto;
+	}
+	
+	.explore{
+		padding-left: 0;
+		text-align: center
+	  width: auto;
+	  margin: auto;
+	  
+	}
+	.enjoy {
+	  text-align: center
+	  width: auto;
+	  margin: auto;
+	}
+  
+	.img {
+	  width: 100%;
+	  height: auto;
+	  margin: 20px 0;
+	  border-radius: 1rem;
+	}
+  
+	h1 {
+	  font-size: 30px;
+	  padding-left: 0;
+	  text-align: center;
+	}
+  
+	strong {
+	  padding-left: 0;
+	  text-align: center;
+	  font-size: 24px;
+	}
+  }
