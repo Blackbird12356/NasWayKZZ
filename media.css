@@ -29,32 +29,34 @@
 	  margin-top: 20px;
 	}
   
-	.nasvay {
-		text-align: center
-	  width: auto;
-	  margin: auto;
-	}
-	
-	.explore{
-		padding-left: 0;
-		text-align: center
-	  width: auto;
-	  margin: auto;
-	  
-	}
-	.enjoy {
-	  text-align: center
-	  width: auto;
-	  margin: auto;
-	}
+.nasvay {
+	text-align: center;
+	width: auto;
+	margin: auto;
+}
+
+.explore {
+	padding-left: 0;
+	text-align: center;
+	width: auto;
+	margin: auto;
+}
+
+.enjoy {
+	text-align: center;
+	width: auto;
+	margin: auto;
+}
+
   
 	.img {
 	  width: 100%;
 	  height: auto;
-	  margin: 20px 0;
+	  margin: 80px 0;
 	  border-radius: 1rem;
 	}
   
+	
 	h1 {
 	  font-size: 30px;
 	  padding-left: 0;
@@ -66,4 +68,42 @@
 	  text-align: center;
 	  font-size: 24px;
 	}
+
+	.rectangle {
+width: 250px;
+height: 340px;
+margin-left: -1145px;
+margin-bottom: -700px;
+
+background: linear-gradient(180deg, #CA0200 46.19%, rgba(255, 177, 153, 0) 122.31%);
+border-radius: 450px;
+transform: rotate(90deg);
+	}
+	
+	  .sneaker-footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sneaker-image img {
+    height: auto;
+    max-width: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .explore-more {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .explore-more a {
+    font-size: 16px;
+  }
   }

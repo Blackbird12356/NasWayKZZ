@@ -9,13 +9,14 @@
 
 body {
 	display: flex;
-	background-image: url('background.jpg');
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size: cover;
 	color: #fff;
 	height: 100%;
+	overflow-x: hidden;
 }
+
 
 .text {
 	margin-top: -25px;
@@ -25,7 +26,7 @@ body {
 .home{
 	display: flex;
 	cursor: pointer;
-	color: #fff;
+	color: #000000;
 	border: transparent;
 	background: transparent;
 	padding: 0.1rem;
@@ -45,7 +46,7 @@ body {
 .services{
 	display: flex;
 	cursor: pointer;
-	color: #fff;
+	color: #000000;
 	border: transparent;
 	background: transparent;
 	font-size: 20px;
@@ -65,7 +66,7 @@ body {
 .pricing{
 	display: flex;
 	cursor: pointer;
-	color: #fff;
+	color: #000000;
 	border: transparent;
 	background: transparent;
 	font-size: 20px;
@@ -85,7 +86,7 @@ body {
 .contact{
 	display: flex;
 	cursor: pointer;
-	color: #fff;
+	color: #000000;
 	border: transparent;
 	background: transparent;
 	font-size:20px;
@@ -105,7 +106,7 @@ body {
 .signup{
 	display: flex;
 	cursor: pointer;
-	color: #fff;
+	color: #000000;
 	border: transparent;
 	background: transparent;
 	font-size:20px;
@@ -128,7 +129,7 @@ body {
   cursor: pointer;
   color: #fff;
   border-color: transparent;
-  background-color: #5de265;
+  background-color: #b41919;
   font-size:20px;
   padding: 1rem;
   border-radius: 7rem;
@@ -148,7 +149,7 @@ body {
 
 .nasvay {
   display: flex;
-  background-color: rgba(208, 208, 208, 0.6);
+  background-color: rgba(224, 50, 50, 0.781);
   padding: 1.3rem;
   border-radius: 1.4rem;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 20px 4px;
@@ -163,16 +164,18 @@ body {
 	color: #fff;
 }
 
+
+
 .enjoy {
 	padding-left: 100px;
 	display: flex;
 	cursor: pointer;
 	color: #fff;
   	border-color: transparent;
-    background-color: #5de265;
+    background-color: #b41919;
     font-size: 30px;
     padding: 1.1rem;
-    border-radius: 1.4rem;
+    border-radius: 3rem;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 20px 4px;
     width: 250px;
     margin-left: 100px;
@@ -189,12 +192,75 @@ body {
 
 .img {
 	display: flex;
-	width: 900px;
-	height: 600px;
-	margin-left: 970px;
-	margin-top: -320px;
-	background-color: rgba(255, 255, 255, 0.4);
+	width: auto;
+	height: auto;
+	margin-left: 790px;
+	margin-top: -390px;
 	border-radius: 5rem;
-	box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 3px;
 	padding: 0.7rem;
+	position: absolute;
+	
 }
+
+.rectangle {
+position: absolute;
+width: 600px;
+height: 1024px;
+left: 1200px;
+bottom: -36px;
+
+background: linear-gradient(180deg, #CA0200 46.19%, rgba(255, 177, 153, 0) 122.31%);
+border-radius: 320.5px;
+transform: rotate(90deg);
+}
+
+.sneaker-footer {
+  margin-top: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background-color: #2f3545; /* тёмно-синий блок */
+  color: white;
+  width: 100vw;
+}
+
+
+.sneaker-image img {
+width: 210px;
+height: 196px;
+top: 810px;
+}
+
+
+.social-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #3a3f4f;
+  height: 100%;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.explore-more {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.explore-more a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
